@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Регистрация на мероприятие</title>
+</head>
+
+<body>
+    <header>
+        <h1>Регистрация на мероприятие</h1>
+        <hr>
+        <p>Заполните форму для участия в нашем мероприятии. Мы с вами свяжемся после успешной регистрации!</p>
+    </header>
+    
+    <section>
+        <h2>Информация о мероприятии</h2>
+        <p><strong>Название:</strong> Конференция по веб-разработке</p>
+        <p><strong>Дата:</strong> 25 марта 2025 года</p>
+        <p><strong>Время:</strong> 10:00 - 16:00</p>
+        <p><strong>Место:</strong> Конференц-зал, ул. Киевская, д. 10</p>
+    </section>
+
+    <section>
+        <h2>Форма регистрации</h2>
+        <form action="#" method="post">
+            <label for="name">Имя и фамилия:</label>
+            <input type="text" id="name" name="name" placeholder="Введите имя" required><br>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" placeholder="example@mail.com" required><br>
+
+            <label for="phone">Телефон:</label>
+            <input type="tel" id="phone" name="phone" placeholder="Введите номер телефона" required><br>
+
+            <label for="age">Возраст:</label>
+            <select id="age" name="age" required>
+                <option value="">Выберите возраст</option>
+                <option value="under18">До 18 лет</option>
+                <option value="18to30">18-30 лет</option>
+                <option value="31to50">31-50 лет</option>
+                <option value="over50">Более 50 лет</option>
+            </select><br>
+
+            <label>Темы мероприятия:</label><br>
+            <input type="checkbox" id="marketing" name="topics" value="marketing">
+            <label for="marketing">Маркетинг</label><br>
+
+            <input type="checkbox" id="development" name="topics" value="development">
+            <label for="development">Разработка</label><br>
+
+            <input type="checkbox" id="design" name="topics" value="design">
+            <label for="design">Дизайн</label><br>
+
+            <label>Статус участника:</label><br>
+            <input type="radio" id="student" name="status" value="student" required>
+            <label for="student">Студент</label><br>
+
+            <input type="radio" id="professional" name="status" value="professional">
+            <label for="professional">Специалист</label><br>
+
+            <input type="radio" id="entrepreneur" name="status" value="entrepreneur">
+            <label for="entrepreneur">Предприниматель</label><br>
+
+            <label for="resume">Загрузите резюме или портфолио:</label>
+            <input type="file" id="resume" name="resume" accept=".pdf,.docx"><br>
+
+            <button type="submit">Зарегистрироваться</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>Спасибо за вашу регистрацию!</p>
+    </footer>
+
+</body>
+
+</html>
