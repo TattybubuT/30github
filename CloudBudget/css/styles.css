@@ -83,3 +83,43 @@ body{
     color: #fff;
     border: 1px solid #fff;
 }
+
+.user-block-login-link:hover {
+    color: #ed4c5c;
+    background-color: #fff;
+    transition: .3s ease;
+
+}
+
+.hero {
+    width: 730px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.hero-title {
+    margin: 0 0 39px;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 86px;letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+.hero-desc {
+    max-width: 500px;
+    margin: 0 auto;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 150%;
+}
+
+
+.hero-btn{
+    margin: 50px 0 0;
+    padding: 17px 53px 16px 52px;
+    font-weight: 700;
+    color: #ed4c5c;
+    font-size: 14px;
+    line-height: 17px;
+    background-color: #fff;
+}
