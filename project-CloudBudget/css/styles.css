@@ -123,3 +123,8 @@ body{
     line-height: 17px;
     background-color: #fff;
 }
+
+.hero-btn:hover {
+    background-color: rgb(240, 188, 188);
+
+}
