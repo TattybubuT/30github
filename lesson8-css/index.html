@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Подключение CSS</title>
+    
+    <!-- Внутренний (Internal) CSS -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        .internal-style {
+            color: blue;
+            font-size: 20px;
+        }
+    </style>
+
+    <!-- Внешний (External) CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1 style="color: red;">Inline CSS (Встроенный стиль)</h1> 
+    <p style="font-weight: bold; color: green;">Этот текст оформлен с помощью inline CSS.</p>
+
+    <h2 class="internal-style">Internal CSS (Внутренний стиль)</h2>
+    <p class="internal-style">Этот текст оформлен с помощью внутреннего CSS.</p>
+
+    <h2 class="external-style">External CSS (Внешний стиль)</h2>
+    <p class="external-style">Этот текст оформлен с помощью внешнего CSS.</p>
+
+</body>
+</html>
