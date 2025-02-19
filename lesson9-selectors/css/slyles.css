@@ -1,0 +1,168 @@
+
+/* Селекторы по типу элемента (по тегу) */
+h1 {
+    color: darkblue;
+    text-align: center;
+}
+p {
+    color: red;
+}
+
+/* Универсальный селектор */
+
+* {
+    margin: 5px;
+    padding: 4px;
+
+}
+
+/* Селекторы по классу */
+
+.paragraph {
+    color: blue;
+    font-size: 20px;
+}
+
+.highlight {
+    color: brown;
+    font-size: 30px;
+}
+
+/* Селекторы по ID */
+#unique {
+    color: green;
+}
+/* Групповые селекторы */
+
+h2, h3, h4 {
+    color: yellowgreen;
+}
+
+/* Селекторы потомков */
+div p {
+    font-size: 52px;
+    color: pink;
+}
+
+/* Псевдоклассы */
+a:hover {
+    color: orange;
+    text-decoration: none;
+}
+
+/* Псевдоэлементы */
+p::before {
+    content: ">>";
+    color: blueviolet;
+}
+
+p::after {
+
+    content: "<<";
+    color: teal;
+
+}
+
+/* Селектор по атрибуту */
+input[type="text"]{
+    border: 2px solid purple;
+    padding: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Селекторы по типу элемента (по тегу) */
+/* h1 {
+    color: darkblue;
+    text-align: center;
+}
+
+p {
+    color: rebeccapurple;
+    font-size: 20px;
+} */
+
+/* Универсальный селектор */
+/* * {
+    margin: 5px;
+    padding: 5px;
+    background-color: blanchedalmond;
+    font-family: 'Times New Roman', Times, serif;
+} */
+
+/* Селекторы по классу */
+/* .highlight {
+    color: brown;
+    text-decoration: none;
+}
+.paragraph {
+    color: chartreuse;
+    font-size: 8px;
+} */
+
+/* Селекторы по ID */
+/* #unique {
+    color: red;
+    font-size: 25px;
+    border: 2px dashed black;
+} */
+
+/* Групповые селекторы */
+/* h2, h3, h4 {
+    color: yellowgreen;
+    text-decoration: underline;
+} */
+
+/* Селекторы потомков */
+/* div p{
+    color: blue;
+    font-style: italic;
+} */
+
+/* Псевдоклассы */
+/* a:hover {
+    color: orange;
+    text-decoration: none;
+} */
+
+/* Псевдоэлементы */
+/* p::before {
+    content: " >>";
+    color: teal;
+} */
+
+/* p::after {
+    content: "<< ";
+    color: teal;
+} */
+
+/* Селектор по атрибуту */
+/* input[type="text"]{
+    border: 2px solid purple;
+    padding: 5px;
+} */
