@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форматирование текста</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h2>Шрифты в CSS</h2>
+    <hr>
+    <p class="arial">Arial</p>
+    <p class="verdana">Verdana</p>
+    <p class="times">Times New Roman</p>
+    <p class="courire">Courier New</p>
+    <p class="georgia">Georgia</p>
+    <p class="tahoma">Tahoma</p>
+    <p class="impact">Impact</p>
+    <p class="comic">Comic Sans MS</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <hr>
+
+    <h2>Подключение шрифта из Google Fonts</h2>
+    <p class="lobster">Lobster</p>
+    <p class="roboto">Roboto</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <hr>
+
+    <h2>Правило @font-face</h2>
+    <p class="lob">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, quia.</p>
+    <p class="rob">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, quia.</p>
+    <p class="rob-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, quia.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <hr>
+
+    <h2>CSS font-style</h2>
+    <p class="describe">Свойство font-style в CSS отвечает за стиль шрифта, позволяя делать текст курсивным, обычным или наклонным.</p>
+    
+    <p class="normal-text">Обычный текст (без курсива). (font-style: normal)</p>
+    <p class="italic-text">Курсивный текст (если шрифт поддерживает курсив).(font-style: italic)</p>
+    <p class="oblique-text">Наклонный текст. <br> Браузер наклоняет обычный шрифт, если нет курсива. (font-style: oblique)</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <hr>
+
+    <h2>Свойство font-weight</h2>
+    <p class="describe">Свойство font-weight определяет насыщенность (жирность) шрифта, делая текст тоньше или толще.</p>
+
+    <p class="normal">Обычная жирность шрифта (по умолчанию).</p>
+    <p class="bold">Жирное начертание текста.</p>
+    <p class="bolder">Делаает текст жирнее по сравнению с родительским элементом.</p>
+
+    <div>
+        <p class="lighter">Делаает текст тоньше по сравнению с родительским элементом.</p>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <hr>
+
+    <h2>Свойство text-transfrom</h2>
+
+    <p class="describe">Свойство text-transform контролирует регистр текста (заглавные и строчные буквы) и может автоматически изменять его.</p>
+
+    <p class="none">Оставляет текст без изменений (по умолчанию).</p>
+
+    <p class="uppercase">Все буквы заглавные.</p>
+
+    <p class="lowercase">Все буквы строчные.</p>
+
+    <p class="capitalize">Первая буква каждого слова заглавная.</p>
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+
+    <hr>
+
+    <h2>Свойство text-decoration</h2>
+    <p class="describe">Свойство text-decoration добавляет различные линии к тексту, такие как подчёркивание, надчёркивание и перечёркивание.</p>
+
+    <p class="underline">Подчёркивание (underline)</p>
+    <p class="overline">Надчёркивание (overline)</p>
+    <p class="line-through">Перечёркивание (line-through)</p>
+    <p class="no-decoration"><a href="#">Отмена декора (none)</a></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <hr>
+
+    <h2>Свойство letter-spasing</h2>
+    <p class="describe">Свойство letter-spacing регулирует расстояние между буквами в тексте. Оно позволяет увеличивать или уменьшать интервал между символами.</p>
+
+    <p class="spaced">Увеличение расстояния (10px)</p>
+    <p class="em-spacing">Расстояние в em (0.3em)</p>
+    <p class="negative-spacing">Отрицательное значение (-2px)</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <hr>
+
+    <h2>Свойство line-height</h2>
+    <p class="describe">Свойство line-height регулирует межстрочный интервал (расстояние между базовыми линиями соседних строк). Оно играет важную роль в читабельности текста и его визуальном оформлении.</p>
+
+    <p class="normal-height">Обычный межстрочный интервал (по умолчанию).</p>
+    <p class="double">Этот текст имеет увеличенный межстрочный интервал в 2 раза.</p>
+    <p class="fixed">Фиксированный интервал в 24px.</p>
+    <p class="percentage">Процентное значение 150% от font-size.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <hr>
+
+    <h2>Свойство text-align</h2>
+    <p class="describe">Свойство text-align в CSS используется для выравнивания строчного содержимого внутри родительского элемента. Оно позволяет управлять расположением текста, изображений и других строчных элементов по горизонтали в пределах контейнера.</p>
+
+    <p class="center">Это заголовок по центру</p>
+    <p class="left">Этот параграф выровнен по левому краю. Он будет начинаться с левого края и идти до конца строки.</p>
+    <p class="right">Этот параграф выровнен по правому краю. Он будет начинаться с правой стороны, и если текст не помещается, будет обрезаться.</p>
+    <p class="justify">Этот текст выровнен по обеим сторонам. Текст будет растягиваться, чтобы занять всю ширину контейнера, распределяя пробелы между словами.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <hr>
+
+    <h2>Свойство text-shadow</h2>
+    <p class="describe">С помощью этого свойства можно добавить тень к тексту. Оно принимает от 2 до 4 параметров. Разберем их по очереди.</p>
+
+    <p class="shadow">Тень с сдвигом: Добавлена тень с сдвигом 5px вправо и 5px вниз красного цвета</p>
+    <p class="blur-shadow">Тень с размытие: Добавлена тень с сдвигом 5px и размытие 5px красного цвета.</p>
+    <p class="some-shadow">Это пример текста с несколькими тенями: одна черная, другая белая: Используется два смещения с различными цветами и размытиями для создания эффекта многослойных теней.</p>
+    <p class="no-shadow"> Этот параграф не имеет тени, так как используется свойство text-shadow: none;.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <hr>
+
+    <h2>Работа цветами в CSS</h2>
+    <p class="red">Красный - rgb(255, 0, 0)</p>
+    <p class="green">Зелёный - rgb(0, 255, 0)</p>    
+    
+    <p class="rgba-blue">Синий - rgba(0, 0, 255, 0.8) (RGBA)</p>
+    <p class="rgba-yellow">Жёлтый - rgba(255, 255, 0, 0.8) (RGBA)</p>
+
+    <p class="hex-cyan">Голубой - #00FFFF (HEX)</p>
+    <p class="hex-magenta">Пурпурный - #FF00FF (HEX)</p>
+
+    <p class="hsl-red">Красный - hsl(0, 100%, 50%) (HSL)</p>
+    <p class="hsl-gray">Серый - hsl(0, 0%, 50%) (HSL)</p>
+
+    <p class="hsla-red">Красный - hsla(0, 100%, 50%, 0.8) (HSLA)</p>
+    <p class="hsla-green">Зелёный - hsla(120, 100%, 50%, 0.8) (HSLA)</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <hr>
+
+    <h2>Пример работы font-size</h2>
+    <p class="block px-font-size">Это текст с font-size: 25px (фиксированный размер)</p>
+
+    <div class="parent">
+        Родительский элемент с font-size: 20px
+        
+        <p class="block child">Дочерний элемент с font-size: 1.5em (Значение em всегда считается относительно размера шрифта своего родителя, 30px) </p>
+
+        <p class="block rem-text">Это текст с font-size: 2rem (Значение rem всегда считается относительно размера шрифта элемента html, 32px)</p>
+
+        <p class="block percent-text">Это текст с font-size: 150% (размер относительно родителя, 30px)</p>
+
+        <p class="block viewport-text">Это текст с font-size: 5vw (Вьюпортные, зависит от ширины экрана)</p>
+
+    </div>
+
+    <hr>
+
+    
+    
+
+
+</body>
+</html>

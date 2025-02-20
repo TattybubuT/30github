@@ -1,0 +1,624 @@
+h2 {
+    color: red;
+    text-align: center;
+}
+
+.describe {
+    border: 1px solid red;
+    font-style: italic
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Шрифты в CSS */
+.arial{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.verdana {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.times {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.courire {
+    font-family: 'Courier New', Courier, monospace
+}
+
+.georgia {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.tahoma {
+    font-family: Tahoma;
+}
+
+.impact {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.comic {
+    font-family: "Comic Sans MS";
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Подключение шрифта из Google Fonts */
+
+.lobster {
+    font-family: "Lobster", serif;
+}
+
+.roboto {
+    font-family: "Roboto", serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Правило @font-face */
+
+@font-face {
+    font-family: lob;
+    src: url("fonts/Lobster-Regular.ttf"),
+  }
+
+@font-face {
+    font-family: rob;
+    src: url("fonts/Roboto-VariableFont_wdth\,wght.ttf")
+  }
+  
+@font-face {
+    font-family: rob-italic;
+    src: url("fonts/Roboto-Italic-VariableFont_wdth\,wght.ttf")
+    }
+
+
+.lob {
+    font-family: lob, sans-serif;
+}
+
+.rob {
+    font-family: rob, sans-serif;
+}
+
+.rob-italic{
+    font-family: rob-italic, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CSS font-style */
+.normal-text {
+    font-style: normal;
+}
+
+.italic-text {
+    font-style: italic;
+}
+
+.oblique-text {
+    font-style: oblique;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Свойство font-weight */
+
+
+.normal {
+    font-weight: normal;
+    /* font-weight: 400; */
+}
+
+.bold {
+    font-weight: bold; /* Жирный текст */
+    /* font-weight: 700; */
+}
+  
+.bolder {
+    font-weight: bolder; /* Еще более жирный текст */
+    /* font-weight: 900; */
+}
+
+
+/* Родитель */
+/* div {
+    font-weight: bold;
+} */
+
+.lighter {
+    font-weight: lighter;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Свойство text-transfrom */
+
+.none{
+    text-transform: none;
+}
+.uppercase {
+    text-transform: uppercase;
+  }
+
+.lowercase {
+    text-transform: lowercase;
+}
+
+.capitalize {
+    text-transform: capitalize;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Свойство text-decoration */
+.underline {
+  text-decoration: underline;
+}
+
+.overline {
+    text-decoration: overline;
+}
+
+.line-through {
+    text-decoration: line-through;
+}
+
+.no-decoration {
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Свойство letter-spasing */
+
+.spaced {
+    letter-spacing: 10px;
+}
+
+.em-spacing {
+    letter-spacing: 0.3em;
+}
+
+.negative-spacing {
+    letter-spacing: -2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Свойство line-height */
+
+.normal-height {
+    line-height: normal;
+}
+
+.double {
+    line-height: 2;
+}
+
+.fixed {
+    line-height: 100px;
+}
+
+.percentage {
+    line-height: 150%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Свойство text-align */
+
+.center {
+    text-align: center; /* Центрируем текст */
+  }
+.left {
+    text-align: left; /* Выравнивание по левому краю */
+  }
+.right {
+    text-align: right; /* Выравнивание по правому краю */
+  }
+.justify {
+    text-align: justify; /* Выравнивание по обеим сторонам */
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* Свойство text-shadow */
+
+.shadow{
+    text-shadow: 5px 5px red; /* Простая тень с сдвигом */
+  }
+
+.blur-shadow {
+    text-shadow: 5px 5px 5px red; /* Тень с размытие */
+}
+
+.some-shadow{
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5), -1px -1px 2px rgba(255, 255, 255, 0.7); /* Несколько теней */
+}
+
+.no-shadow {
+    text-shadow: none; /* Без тени */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Работа цветами в CSS */
+
+.red {
+    color: rgb(255, 0, 0);
+}
+.green {
+    color: rgb(0, 255, 0);
+}
+.rgba-blue {
+    color: rgba(0, 0, 255, 0.8);
+}
+.rgba-yellow {
+    color: rgba(255, 255, 0, 0.8);
+}
+.hex-cyan {
+    color: #00FFFF;
+}
+.hex-magenta{
+    color: #FF00FF;
+}
+.hsl-red {
+    color: hsl(0, 100%, 50%);
+}
+.hsl-gray {
+    color: hsl(0, 0%, 50%);
+}
+.hsla-red {
+    color: hsla(0, 100%, 50%, 0.8);
+}
+.hsla-green {
+    color: hsla(120, 100%, 50%, 0.8);
+    font-family: lob;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Базовый размер шрифта для HTML */
+html {
+    font-size: 16px;
+}
+
+/* Блоки для визуального разделения */
+.block {
+    border: 1px solid #ccc;
+    background: white;
+}
+
+
+/* font-size в пикселях */
+.px-font-size {
+    font-size: 25px;
+    color: #d9534f;
+}
+
+/* font-size в em */
+.parent {
+    /* Родительский размер */
+    font-size: 20px; 
+    color: #0275d8;
+}
+
+.child {
+    /* 1.5 * 20px = 30px */
+    font-size: 1.5em; 
+    color: #5bc0de;
+}
+
+/* font-size в rem */
+.rem-text {
+    /* 2 * 16px = 32px */
+    font-size: 2rem; 
+    color: #5cb85c;
+}
+
+/* font-size в процентах */
+.percent-text {
+    /* 150% от 20px = 30px */
+    font-size: 150%; 
+    color: #f0ad4e;
+}
+
+/* font-size в vw (относительно ширины экрана) */
+.viewport-text {
+    /* 5% от ширины окна браузера */
+    font-size: 5vw; 
+    color: #d9534f;
+}
+
+
+
+
+
+   
