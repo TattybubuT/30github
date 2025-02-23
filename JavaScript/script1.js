@@ -97,4 +97,14 @@ console.log(true && false); // false (и)
 console.log(true || false); // true (или)
 console.log(!true); // false (не)
 
+// Простая программа для проверки возраста
+let userAge = prompt("Введите ваш возраст:"); 
+userAge = Number(userAge);
+
+if (userAge >= 18) {
+    console.log("Вы совершеннолетний!");
+} else {
+    console.log("Вы еще несовершеннолетний.");
+}
+
 
