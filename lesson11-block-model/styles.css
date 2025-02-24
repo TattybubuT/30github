@@ -1,0 +1,74 @@
+.border-long {
+    border-width: 5px;
+    border-style: solid dashed dotted solid;
+    border-color: yellow rgb(67, 67, 192) red green;
+}
+
+.border-short {
+    border: 3px solid blue;
+}
+
+.border-radius {
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.round {
+    width: 50px;
+    height: 50px;
+    border: 1px solid red;
+    border-radius: 50%;
+}
+
+.padding {
+    border: 1px solid black;
+    padding: 10px 30px 60px 100px; /* по часовой стрелке */
+}
+
+.margin {
+    border: 1px solid blueviolet;
+    margin: 20px 30px 40px 50px;
+    padding: 20px;
+}
+
+span {
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+    display: inline-block; /* строчно-блочный элемент */
+}
+
+.width {
+    width: 200px;
+    border: 1px solid black;
+}
+
+.max-width {
+    border: 1px solid rgb(235, 17, 17);
+    max-width: 400px;
+}
+
+.min-width {
+    border: 1px solid rgb(9, 172, 77);
+    min-width: 150px;
+}
+
+.height {
+    border: 1px solid rgb(156, 131, 17);
+    min-height: 200px;
+}
+
+.block {
+    border: 1px solid rgb(156, 17, 138);
+    width: 200px;
+    padding: 10px;
+    box-sizing: content-box;
+    background-color: rebeccapurple;
+}
+
+/* Применение box-sizing */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
