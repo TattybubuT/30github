@@ -24,50 +24,77 @@
     </section>
 
     <section>
-        <h2>Форма регистрации</h2>
         <form action="#" method="post">
-            <label for="name">Имя и фамилия:</label>
-            <input type="text" id="name" name="name" placeholder="Введите имя" required><br>
+            <fieldset>
+                <legend>Форма регистрации</legend>
+                
+                <p>
+                    <label for="name">Имя и фамилия:</label>
+                    <input type="text" id="name" name="name" placeholder="Введите имя" required><br>
+                </p>
+    
+                <p>
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" placeholder="example@mail.com" required><br>
+                </p>
+                
+                <p>
+                    <label for="phone">Телефон:</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Введите номер телефона" required><br>
+                </p>
+    
+                <p>
+                    <label for="age">Возраст:</label>
+                    <select id="age" name="age" required>
+                        <option value="">Выберите возраст</option>
+                        <option value="under18">До 18 лет</option>
+                        <option value="18to30">18-30 лет</option>
+                        <option value="31to50">31-50 лет</option>
+                        <option value="over50">Более 50 лет</option>
+                    </select><br>
+                </p>
+                
+                <p>
+                    <label>Темы мероприятия:</label><br>
+                    <input type="checkbox" id="marketing" name="topics" value="marketing">
+                    <label for="marketing">Маркетинг</label><br>
+                </p>
+                
+                <p>
+                    <input type="checkbox" id="development" name="topics" value="development">
+                    <label for="development">Разработка</label><br>
+                </p>
+    
+                <p>
+                    <input type="checkbox" id="design" name="topics" value="design">
+                    <label for="design">Дизайн</label><br>
+                </p>
+    
+                <p>
+                    <label>Статус участника:</label><br>
+                    <input type="radio" id="student" name="status" value="student" required>
+                    <label for="student">Студент</label><br>
+                </p>
+    
+                <p>
+                    <input type="radio" id="professional" name="status" value="professional">
+                    <label for="professional">Специалист</label><br>
+                </p>
+    
+                <p>
+                    <input type="radio" id="entrepreneur" name="status" value="entrepreneur">
+                    <label for="entrepreneur">Предприниматель</label><br>
+                </p>
 
-            <label for="email">E-mail:</label>
-            <input type="email" id="email" name="email" placeholder="example@mail.com" required><br>
-
-            <label for="phone">Телефон:</label>
-            <input type="tel" id="phone" name="phone" placeholder="Введите номер телефона" required><br>
-
-            <label for="age">Возраст:</label>
-            <select id="age" name="age" required>
-                <option value="">Выберите возраст</option>
-                <option value="under18">До 18 лет</option>
-                <option value="18to30">18-30 лет</option>
-                <option value="31to50">31-50 лет</option>
-                <option value="over50">Более 50 лет</option>
-            </select><br>
-
-            <label>Темы мероприятия:</label><br>
-            <input type="checkbox" id="marketing" name="topics" value="marketing">
-            <label for="marketing">Маркетинг</label><br>
-
-            <input type="checkbox" id="development" name="topics" value="development">
-            <label for="development">Разработка</label><br>
-
-            <input type="checkbox" id="design" name="topics" value="design">
-            <label for="design">Дизайн</label><br>
-
-            <label>Статус участника:</label><br>
-            <input type="radio" id="student" name="status" value="student" required>
-            <label for="student">Студент</label><br>
-
-            <input type="radio" id="professional" name="status" value="professional">
-            <label for="professional">Специалист</label><br>
-
-            <input type="radio" id="entrepreneur" name="status" value="entrepreneur">
-            <label for="entrepreneur">Предприниматель</label><br>
-
-            <label for="resume">Загрузите резюме или портфолио:</label>
-            <input type="file" id="resume" name="resume" accept=".pdf,.docx"><br>
-
-            <button type="submit">Зарегистрироваться</button>
+                <p>
+                    <label for="resume">Загрузите резюме или портфолио:</label>
+                    <input type="file" id="resume" name="resume" accept=".pdf,.docx"><br>
+                </p>
+                
+                <p>
+                    <button type="submit">Зарегистрироваться</button>
+                </p>
+            </fieldset>
         </form>
     </section>
 
