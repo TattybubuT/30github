@@ -234,3 +234,87 @@ body{
     color: #ED4C5C;
     text-decoration: none;
 }
+
+/* ---------SECTION TECHNOLOGY------- */
+.technology {
+    padding-top: 135px;
+    padding-bottom: 104px;
+  }
+  
+  .technology-title {
+    margin: 0 0 52px;
+    text-align: center;
+  }
+  
+  .technology-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    counter-reset: num;
+  }
+  
+  .technology-item {
+    counter-increment: num;
+    width: 255px;
+    padding: 0 30px;
+    text-align: center;
+  }
+  
+  .technology-item::before {
+    content: counter(num);
+    counter-increment: 1;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 120px;
+    color: rgba(16, 16, 16, 0.08);
+  }
+  
+  .technology-item:nth-child(-n + 9)::before {
+    content: "0" counter(num);
+  }
+  
+  .technology-item-title {
+    position: relative;
+    margin: 0 0 10px 0;
+    padding-top: 15px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #101010;
+  }
+  
+  .technology-item-title::before {
+    position: absolute;
+    bottom: -25px;
+    left: 50%;
+    margin-bottom: 20px;
+    transform: translate(-50%, -50%);
+    width: 80px;
+    height: 80px;
+    content: "";
+    background-image: url("../images/icon-cloud.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .technology-item-title-secure::before {
+    background-image: url("../images/icon-secure.svg");
+  }
+  
+  .technology-item-title-pdf::before {
+    background-image: url("../images/icon-pdf.svg");
+  }
+  
+  .technology-item-title-csv::before {
+    background-image: url("../images/icon-csv.svg");
+  }
+  
+  .technology-descr {
+    font-size: 12px;
+    line-height: 14px;
+    color: #000000;
+  }
