@@ -1,4 +1,4 @@
-Калькулятор с операторами (+, -, *, /)
+// Калькулятор с операторами (+, -, *, /)
 function calculator(a, b, operator) {
     if (operator === "+") {
         return a + b;
