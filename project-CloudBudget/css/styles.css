@@ -318,3 +318,34 @@ body{
     line-height: 14px;
     color: #000000;
   }
+
+.footer {
+    padding-top: 135px;
+    padding-bottom: 104px;
+    background-color: #FAFAFA;
+}
+
+.footer-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-wrap: wrap;
+    counter-reset: num;
+  }
+
+.footer-item {
+    margin: 0 20px;
+    padding: 0;
+    list-style: none;
+  }
+
+.footer-item-li {
+    list-style: none;
+}
+
+.footer-paragraph {
+    width: 200px;
+}
